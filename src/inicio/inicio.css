@@ -1,0 +1,113 @@
+
+.pagina-1-contenedor-1 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .imagen-banner-inicio {
+    width: 100%;
+    border-radius: 36px;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    margin-bottom: 2%;
+  }
+  
+  .contenido-banner-1 {
+    font-size: 1.1rem;
+  }
+  
+  .pagina-1-contenedor-2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    min-height: 380px;
+    position: relative;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .pagina-1-contenedor-2-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 36px;
+    object-fit: cover;
+    filter: brightness(70%);
+  }  
+  
+  .imagen-banner-2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 36px;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .contenido-banner-2 {
+    position: relative;
+    padding-top: 5%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: #000000 8px 2px 8px;
+  }
+  
+  .mas-button {
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #9a6aff, #c084fc);
+    color: white;
+    border: none;
+    position: relative;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 40%;
+    color: #0c1928;
+    font-size: 0.8rem;
+    font-family: 'trajan', sans-serif;
+    cursor: pointer;
+    transition: background 0.5s ease;
+  }
+  
+  .mas-button:hover {
+    background: linear-gradient(135deg, #c084fc, #9a6aff);
+  }
+  
+  .pagina-1-contenedor-3 {
+    padding-bottom: 5%;
+  }
+  
+  .contendor-grid-5 {
+    margin-top: 4%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el tamaño de las columnas */
+    gap: 10px;
+  }
+  
+  .contendor-grid-5 h2 {
+    font-size: 1rem;
+    margin-bottom: 2%;
+  }
+  
+  .contendor-grid-5 p {
+    font-size: 0.8rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }

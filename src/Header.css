@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c1928; 
+    padding: 1rem;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .burger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .burger-icon div {
+    width: 40px;
+    height: 6px;
+    background: linear-gradient(135deg, #c084fc, #9a6aff);
+    border-radius: 2px;
+  }
+  
+  .logo-image img {
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+
+ .header-title-contenedor{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ } 
+
+  .header-title {
+    font-family: 'trajan', sans-serif;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    position: asbolute;
+    left: 0
+  }
+  
+  .login-button {
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #9a6aff, #c084fc);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    color: #0c1928;
+    font-size: 0.8rem;
+    font-family: 'trajan', sans-serif;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(135deg, #c084fc, #9a6aff);
+  }
+  
+  @font-face {
+    font-family: 'trajan';
+    src: url('./assets/trajan_pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+@layer base {
+  h1, h2, h3, h4 {
+    font-family: trajan!important;
+  }
+
+  p {
+    font-family: montserrat;
+  }
+}
+
+.submenu {
+  position: absolute;
+  top: 90%;
+  left: 2%;
+  width: 30%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  height: auto; 
+  background-color: #13273e;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+
+.submenu a {
+  display: block; 
+  text-decoration: none;
+  font-family: trajan;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem; 
+  padding: 10px 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
